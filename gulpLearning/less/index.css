@@ -1,0 +1,10 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.common {
+  border: 1px solid black;
+}
+.common .common-p {
+  color: red;
+}

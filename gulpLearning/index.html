@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>gulp learning</title>
+    <meta name="description"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimun-scale=1.0,maximun-scale=1.0,user-scalable=no"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--使用gulp-inject插件要在html里加入以下标签-->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/gulpLearning/dist/main.min.css">
+    <!-- endinject -->
+</head>
+<body>
+<div class="common"><p class="common-p">这里是内容</p></div>
+<!-- inject:js -->
+<script src="/gulpLearning/dist/index.min.js"></script>
+<script src="/gulpLearning/dist/tippy.min.js"></script>
+<!-- endinject -->
+</body>
+</html>
